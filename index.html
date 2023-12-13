@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <head>
+    <title>Bulb on and off</title>
+  </head>
+
+
+
+<div style="text-align:center;">
+  <h2>Bulb on And off</h2>
+  <button onclick="document.getElementById('myImage').src='bulb-on.png'">On</button>
+
+    <div style="display: inline;">
+      <img id="myImage" src="bulb-off.png" style="width:250px">
+    </div>
+
+  <button onclick="document.getElementById('myImage').src='bulb-off.png'">Off</button>
+</div>
+
+</body>
+</html>
+
+<style>
+  button{
+    padding: 7px 14px;
+    background-color: rgb(27, 57, 158);
+    color: #fff;
+    font-size:15px;
+    border: none;
+    cursor: pointer;
+  }
+</style>
